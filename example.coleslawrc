@@ -1,0 +1,5 @@
+(:author "Your Name Here"
+ :domain "Your Heroku Web URL"
+ :license "CC-BY-SA"
+ :title "Your Blog Title"
+ :theme "hyde")
