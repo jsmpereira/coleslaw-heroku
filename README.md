@@ -4,6 +4,8 @@ Deploy your Common Lisp blog using [Coleslaw](https://github.com/redline6561/col
 
 Makes use of my [heroku-buildpack-cl](https://github.com/jsmpereira/heroku-buildpack-cl) fork.
 
+Example app: [http://dry-wildwood-8610.herokuapp.com](http://dry-wildwood-8610.herokuapp.com)
+
 Because of Heroku's build system and read-only filesystem, some tweaks were needed.
 
 ## Quick instructions
