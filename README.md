@@ -10,6 +10,7 @@ Because of Heroku's build system and read-only filesystem, some tweaks were need
 
 1. Setup Heroku app
 ```heroku create -s cedar --buildpack http://github.com/jsmpereira/heroku-buildpack-cl.git
+heroku labs:enable user-env-compile -a myapp
 heroku config:add CL_IMPL=sbcl
 heroku config:add CL_WEBSERVER=hunchentoot
 heroku config:add LANG=en_US.UTF-8``
