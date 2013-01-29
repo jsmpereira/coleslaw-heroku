@@ -1,5 +1,7 @@
 (:author "Your Name Here"
+ :deploy #.cl-user::*build-dir*
  :domain "Your Heroku Web URL"
  :license "CC-BY-SA"
+ :repo #.(merge-pathnames "posts/" cl-user::*build-dir*)
  :title "Your Blog Title"
  :theme "hyde")
