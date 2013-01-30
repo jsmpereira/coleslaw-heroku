@@ -4,4 +4,5 @@
  :license "CC-BY-SA"
  :repo #.(merge-pathnames "posts/" cl-user::*build-dir*)
  :title "Your Blog Title"
- :theme "hyde")
+ :theme "hyde"
+ :plugins (heroku))
